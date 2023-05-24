@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\_root\\LocalGitRepository\\CSharp-HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles.csproj": {}
+  },
+  "projects": {
+    "D:\\_root\\LocalGitRepository\\CSharp-HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_root\\LocalGitRepository\\CSharp-HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles.csproj",
+        "projectName": "AidenOliver.HelperFiles",
+        "projectPath": "D:\\_root\\LocalGitRepository\\CSharp-HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles.csproj",
+        "packagesPath": "C:\\Users\\aiden.oliver\\.nuget\\packages\\",
+        "outputPath": "D:\\_root\\LocalGitRepository\\CSharp-HelperFiles\\AidenOliver.HelperFiles\\AidenOliver.HelperFiles\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aiden.oliver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
