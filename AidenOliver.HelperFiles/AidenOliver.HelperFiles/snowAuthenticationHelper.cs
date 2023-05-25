@@ -20,7 +20,7 @@
         snowAuth.bearerAccessToken = snowAuth.getSnowAuthenticationToken();
 .OUTPUTS
     Returns the ServiceNow OAuth2.0 AccessToken as a string
-.NOTES
+.NOTESs
     Created on: 14.10.2022
     Author:     Aiden Oliver
 */
